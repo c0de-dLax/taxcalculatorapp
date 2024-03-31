@@ -150,20 +150,19 @@ export default function Navbar () {
             columnGap={1}
           >
             <Box
+              component="img"
               sx={{
                 display: "flex",
                 alignItems: "center",
                 justifyContent: "center",
-                width: { xs: "36px", sm: "40px" },
-                height: "auto",
+                maxHeight: "auto",
+                maxWidth: { xs: "36px", sm: "40px" },
+                width: "413",
+                height: "462",
               }}
-            >
-              <img
-                alt="Tax Calculator Page Logo"
-                src="images/taxPHIcon2nobg.webp"
-                width="100%"
-              />
-            </Box>
+              alt="Tax Calculator Page Logo"
+              src="images/taxPHIcon2nobg.webp"
+            />
             {betweenXSandSM ? (
               <Typography
                 sx={{
