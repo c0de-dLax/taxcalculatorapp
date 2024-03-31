@@ -160,7 +160,7 @@ export default function Navbar () {
             >
               <img
                 alt="Tax Calculator Page Logo"
-                src="images/taxPHIcon2nobg.png"
+                src="images/taxPHIcon2nobg.webp"
                 width="100%"
               />
             </Box>
