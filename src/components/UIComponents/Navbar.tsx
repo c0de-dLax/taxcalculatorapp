@@ -193,7 +193,7 @@ export default function Navbar () {
               alignItems: "center",
             }}
           >
-            <Link to={"/"} style={{ textDecoration: "none" }}>
+            <Link to="/taxcalculatorapp/" style={{ textDecoration: "none" }}>
               <IconButton
                 disableRipple
                 sx={{
@@ -348,7 +348,7 @@ export default function Navbar () {
                   </Typography>
                 </MenuItem>
               </Link>
-              <Link to="/taxcalculatorapp//disclaimer" style={{ textDecoration: "none" }}>
+              <Link to="/taxcalculatorapp/disclaimer" style={{ textDecoration: "none" }}>
                 <MenuItem sx={{ height: 40 }}>
                   <Typography
                     sx={{
