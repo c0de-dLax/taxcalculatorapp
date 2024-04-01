@@ -59,7 +59,7 @@ const ResultBox = styled("div")(({}) => ({
   textOverflow: "ellipsis",
 }));
 
-export default function TaxationWrapper() {
+export default function TaxPageWrapper() {
   const [incomeValue, setIncomeValue] = useState<string | null>(null);
   const [showResult, setShowResult] = useState(false);
   const [isInputInvalid, setIsInputInvalid] = useState(false);
@@ -216,8 +216,8 @@ export default function TaxationWrapper() {
                   onClick={handleClearButtonClick}
                   sx={{
                     visibility: incomeValue ? "visible" : "hidden",
-                    width: 24,
-                    height: 24,
+                    width: 20,
+                    height: 20,
                     backgroundColor: "white",
                     border: "2px solid rgb(221,73,78)",
                     color: "rgb(221,73,78)",
@@ -226,7 +226,7 @@ export default function TaxationWrapper() {
                     ":hover": { backgroundColor: "rgb(221,73,78)", color: "white" },
                   }}
                 >
-                  <Clear sx={{ width: 22, height: 22 }} />
+                  <Clear sx={{ width: 20, height: 20 }} />
                 </IconButton>
               ),
             }}

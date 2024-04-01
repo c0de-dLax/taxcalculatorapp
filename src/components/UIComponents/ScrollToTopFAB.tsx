@@ -1,25 +1,15 @@
 import { useState, useEffect } from "react";
-import { Theme, Zoom, Fab, useScrollTrigger } from "@mui/material";
+import { Zoom, Fab, useScrollTrigger } from "@mui/material";
 import { KeyboardArrowUp } from "@mui/icons-material";
-import { makeStyles } from "@material-ui/core/styles";
 import PropTypes from "prop-types";
 
 interface ScrollTopProps {
   children: React.ReactElement;
 }
 
-const useStyles = makeStyles((theme: Theme) => ({
-  root: {
-    position: "fixed",
-    bottom: theme.spacing(1.5),
-    right: theme.spacing(1.5),
-  },
-}));
-
 // Adds a return-to-top-anchor when certain scroll has been done
 function ScrollTop(props: ScrollTopProps) {
   const { children } = props;
-  const classes = useStyles();
   const trigger = useScrollTrigger({
     disableHysteresis: true,
     threshold: 300,
@@ -78,7 +68,7 @@ function ScrollTop(props: ScrollTopProps) {
 
   return (
     <Zoom in={(trigger && showBtnOnHomePage) || (trigger && showBtnOnDisclaimerPage)}>
-      <div onClick={handleClick} role="presentation" className={classes.root}>
+      <div onClick={handleClick} role="presentation" style={{position: "fixed", bottom: 0, marginBottom: "10px", right: 0, marginRight: "10px"}}>
         {children}
       </div>
     </Zoom>

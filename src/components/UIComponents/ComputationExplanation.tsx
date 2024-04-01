@@ -134,12 +134,25 @@ export default function ComputationExplanation() {
           <br />
           <i>
             Note:
+            <br />• This contribution is shared by the employee and employer.
             <br />• If your income is <span>&#8369;</span>1,500.00 or below, you
             only contribute 1% of your income.
             <br />• If your income is more than <span>&#8369;</span>1,500.00,
             you contribute 2% of your income.
-            <br />• The maximum amount for this contribution is{" "}
-            <span>&#8369;</span>100.00 and no more.
+            <br />• As of February 2024, the maximum amount for this
+            contribution is <span>&#8369;</span>400.00 {"("}from{" "}
+            <span>&#8369;</span>200.00 previously{")"} and is shared by the
+            employer and employee {"("}
+            <span>&#8369;</span>200.00 each, meaning a max of{" "}
+            <span>&#8369;</span>200.00 will only be deducted to your income as
+            part of this contribution{")"}.{" "}
+            <a
+              href="https://www.pagibigfund.gov.ph/2024news.html#February 19_33"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Click here to see the source
+            </a>
             <br />
           </i>
         </p>
@@ -188,7 +201,7 @@ export default function ComputationExplanation() {
         <br />
         <br />► &nbsp; <b>SSS</b> = <span>&#8369;</span>1,350.00
         <br />► &nbsp; <b>PhilHealth</b> = <span>&#8369;</span>1,125.00
-        <br />► &nbsp; <b>Pag-IBIG</b> = <span>&#8369;</span>100.00
+        <br />► &nbsp; <b>Pag-IBIG</b> = <span>&#8369;</span>200.00
         <br />
         <br />
         <div className="divider"> Total Contributions </div>
@@ -207,7 +220,7 @@ export default function ComputationExplanation() {
               <td>=</td>
               <td>
                 <span>&#8369;</span>1,350.00 + <span>&#8369;</span>1,125.00 +
-                <span>&#8369;</span>100.00
+                <span>&#8369;</span>200.00
               </td>
             </tr>
           </tbody>
