@@ -153,6 +153,8 @@ export default function Navbar () {
               <img
                 alt="Tax Calculator Page Logo"
                 src="images/taxPHIcon2nobg.webp"
+                decoding="async"
+                loading="lazy"
                 width="36"
                 height="40"
               />
