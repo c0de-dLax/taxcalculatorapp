@@ -7,11 +7,11 @@ import "./index.css"
 
 export default function App () {
   return (
-    <Router>
+    <Router basename="/taxcalculatorapp/">
       <Routes>
-        <Route path="/taxcalculatorapp/" element={<HomePage />} />
-        <Route path="/taxcalculatorapp/disclaimer" element={<DisclaimerPage />} />
-        <Route path="/taxcalculatorapp/*" element={<ErrorPage />} />
+        <Route path="/" element={<HomePage />} />
+        <Route path="/disclaimer" element={<DisclaimerPage />} />
+        <Route path="*" element={<ErrorPage />} />
       </Routes>
     </Router>
   );

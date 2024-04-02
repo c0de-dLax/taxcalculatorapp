@@ -4,6 +4,18 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/icon" href="Icons/taxPHFavIcon3.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="text/javascript">
+      (function(l) {
+        if (l.search[1] === '/' ) {
+          var decoded = l.search.slice(1).split('&').map(function(s) { 
+            return s.replace(/~and~/g, '&')
+          }).join('?');
+          window.history.replaceState(null, null,
+              l.pathname.slice(0, -1) + decoded + l.hash
+          );
+        }
+      }(window.location))
+    </script>
     <title>PH Tax Calculator 2024</title>
     <meta name="description" content="Empower your tax planning with this comprehensive tax calculator web app, providing good estimates and meticulously designed to align with Philippine tax regulations. Utilizing data from mandated government agency tables, this tool provides insightful estimates tailored to your financial needs. Simplify your tax planning process today with confidence." />
   </head>

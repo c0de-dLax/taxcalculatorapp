@@ -153,7 +153,7 @@ export default function Navbar () {
             <Box sx={{width: "36px", height: "40px", display: "flex", justifyContent: "center", alignItems: "center", }}>
               <img
                 alt="Tax Calculator Page Logo"
-                src="images/taxPHIcon2nobg.webp"
+                src="/taxcalculatorapp/images/taxPHIcon2nobg.webp"
                 decoding="async"
                 loading="lazy"
                 width="36"
@@ -189,7 +189,7 @@ export default function Navbar () {
               alignItems: "center",
             }}
           >
-            <Link to="/taxcalculatorapp/" style={{ textDecoration: "none" }}>
+            <Link to="/" style={{ textDecoration: "none" }}>
               <IconButton
                 disableRipple
                 sx={{
@@ -218,7 +218,7 @@ export default function Navbar () {
               </IconButton>
             </Link>
             <Box width={10} />
-            <Link to="/taxcalculatorapp/disclaimer" style={{ textDecoration: "none" }}>
+            <Link to="/disclaimer" style={{ textDecoration: "none" }}>
               <IconButton
                 disableRipple
                 sx={{
@@ -317,7 +317,7 @@ export default function Navbar () {
               open={Boolean(openNavMenu)}
               onClose={handleCloseNavMenu}
             >
-              <Link to="/taxcalculatorapp/" style={{ textDecoration: "none" }}>
+              <Link to="/" style={{ textDecoration: "none" }}>
                 <MenuItem>
                   <Typography
                     sx={{
@@ -344,7 +344,7 @@ export default function Navbar () {
                   </Typography>
                 </MenuItem>
               </Link>
-              <Link to="/taxcalculatorapp/disclaimer" style={{ textDecoration: "none" }}>
+              <Link to="/disclaimer" style={{ textDecoration: "none" }}>
                 <MenuItem sx={{ height: 40 }}>
                   <Typography
                     sx={{
