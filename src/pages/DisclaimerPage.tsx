@@ -37,6 +37,8 @@ export default function DisclaimerPage() {
             paddingX: 4,
             paddingTop: 3,
             paddingBottom: 4,
+            boxShadow:
+            "rgba(0, 0, 0, 0.24) 0px 3px 8px",
           }}
         >
           <Typography fontSize={30} fontWeight={600} letterSpacing={2}>

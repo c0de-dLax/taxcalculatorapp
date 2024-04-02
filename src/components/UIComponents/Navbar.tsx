@@ -137,7 +137,8 @@ export default function Navbar () {
             display: "flex",
             alignItems: "center",
             justifyContent: "space-between",
-            paddingX: 1,
+            paddingRight: 1,
+            paddingLeft: 1,
             maxWidth: 1060,
             width: "100%",
           }}
@@ -173,7 +174,7 @@ export default function Navbar () {
               <Typography
                 sx={{
                   fontFamily: "Carter One",
-                  letterSpacing: "1.5px",
+                  letterSpacing: "1px",
                   fontSize: "1em",
                 }}
               >
@@ -399,7 +400,7 @@ export default function Navbar () {
             <Menu
               aria-label="Reference Menu"
               disableScrollLock={true}
-              sx={{ mt: "30px" }}
+              sx={{ mt: "30px", }}
               anchorEl={anchorReference}
               anchorOrigin={{
                 vertical: "top",

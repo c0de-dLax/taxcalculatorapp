@@ -17,7 +17,7 @@ export default function ComputationExplanation() {
         width: "95%",
         textAlign: "justify",
         lineHeight: 1.5,
-        boxShadow: "0 8px 8px -4px rgb(182, 182, 164)",
+        boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px",
         alignItems: "center",
         justifyContent: " center",
       }}
@@ -38,8 +38,7 @@ export default function ComputationExplanation() {
           fontSize: "calc(15px + 2vw)",
           fontFamily: "Carter One",
           letterSpacing: "1px",
-          boxShadow:
-            "0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.29)",
+          boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px",
         }}
       >
         How did we get the results?
@@ -479,6 +478,7 @@ export default function ComputationExplanation() {
           borderRadius: 6,
           color: "white",
           cursor: "pointer",
+          boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px",
         }}
       >
         <Typography

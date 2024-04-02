@@ -190,7 +190,7 @@ export default function TaxPageWrapper() {
             justifyContent: "center",
             bgcolor: "white",
             borderRadius: "6px",
-            boxShadow: "0 8px 6px -4px rgb(140, 140, 140)",
+            boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px",
             border: "1.5px solid darkgray",
             maxWidth: "260px",
             width: "100vw",
@@ -251,7 +251,7 @@ export default function TaxPageWrapper() {
           aria-label="Calculate Button for Monthly Income Tax"
           size="small"
           sx={{
-            boxShadow: "0 8px 6px -4px rgb(140, 140, 140)",
+            boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px",
             maxWidth: "140px",
             maxHeight: "34px",
             minWidth: "140px",
@@ -305,7 +305,7 @@ export default function TaxPageWrapper() {
               fontWeight={600}
               bgcolor="white"
               marginX="auto"
-              boxShadow="0 8px 6px -4px rgb(140, 140, 140)"
+              boxShadow="rgba(0, 0, 0, 0.24) 0px 3px 8px"
               sx={(theme) => ({
                 [theme.breakpoints.down("md")]: {
                   maxWidth: "360px",
@@ -398,7 +398,7 @@ export default function TaxPageWrapper() {
               fontWeight={600}
               bgcolor="white"
               marginX="auto"
-              boxShadow="0 8px 6px -4px rgb(140, 140, 140)"
+              boxShadow="rgba(0, 0, 0, 0.24) 0px 3px 8px"
               sx={(theme) => ({
                 [theme.breakpoints.down("md")]: {
                   maxWidth: "360px",
@@ -514,7 +514,7 @@ export default function TaxPageWrapper() {
             marginTop={1.5}
             marginX="auto"
             bgcolor="white"
-            boxShadow="0 8px 6px -4px rgb(140, 140, 140)"
+            boxShadow="rgba(0, 0, 0, 0.24) 0px 3px 8px"
             sx={(theme) => ({
               [theme.breakpoints.down("md")]: {
                 maxWidth: "360px",
