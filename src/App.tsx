@@ -7,7 +7,7 @@ import "./index.css"
 
 export default function App () {
   return (
-    <Router basename="/taxcalculatorapp/">
+    <Router>
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/disclaimer" element={<DisclaimerPage />} />

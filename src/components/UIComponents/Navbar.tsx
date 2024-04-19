@@ -153,7 +153,7 @@ export default function Navbar () {
             <Box sx={{width: "36px", height: "40px", display: "flex", justifyContent: "center", alignItems: "center", }}>
               <img
                 alt="Tax Calculator Page Logo"
-                src="/taxcalculatorapp/images/taxPHIcon2nobg.webp"
+                src="/images/taxPHIcon2nobg.webp"
                 decoding="async"
                 loading="lazy"
                 width="36"
